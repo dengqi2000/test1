@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mysqlDemo" />
+        <module name="mybatis-generator-gui" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-generator-gui" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
